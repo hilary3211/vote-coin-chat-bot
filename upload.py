@@ -19,4 +19,4 @@ async def on_member_join(member):
     for channel in member.server.channels:
         if str(channel)== 'general':
             await client.send_message(f"""Welcome to the vote coin server {member.mention}for more insights about vote coin type the command what is vote coin""")
-client.run('OTI3NTI3MTE3NzMyODY4MTY2.YdLg8Q.tiWePcwvFvTxvDKN5LNwohu20yI')
+client.run('Token')
